@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unisciti - Italiani ad Austin</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="nav-logo">
+            <h1>
+              <span class="green">Italiani</span>
+              <span class="red">ad Austin</span>
+            </h1>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="eventi.html" class="nav-link">Eventi</a></li>
+            <li><a href="chi-siamo.html" class="nav-link">Chi Siamo</a></li>
+            <li><a href="galleria.html" class="nav-link">Galleria</a></li>
+            <li>
+              <a href="unisciti.html" class="nav-link active">Unisciti</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main style="margin-top: 70px">
+      <section class="page-header">
+        <div class="container">
+          <h1>Unisciti a Noi</h1>
+          <p>Diventa parte della comunità italiana di Austin</p>
+        </div>
+      </section>
+
+      <section class="join-us">
+        <div class="container">
+          <div class="join-content">
+            <div class="join-info">
+              <h2>Perché Unirti alla Nostra Comunità?</h2>
+
+              <div class="benefits">
+                <div class="benefit">
+                  <span class="benefit-icon">🤝</span>
+                  <div>
+                    <h3>Connessioni Autentiche</h3>
+                    <p>
+                      Incontra altri italiani e appassionati della cultura
+                      italiana ad Austin. Crea amicizie durature e connessioni
+                      professionali.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="benefit">
+                  <span class="benefit-icon">🎉</span>
+                  <div>
+                    <h3>Eventi Esclusivi</h3>
+                    <p>
+                      Partecipa a eventi culturali, sociali e gastronomici
+                      organizzati esclusivamente per i membri della comunità.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="benefit">
+                  <span class="benefit-icon">🏠</span>
+                  <div>
+                    <h3>Supporto e Orientamento</h3>
+                    <p>
+                      Ricevi supporto e consigli pratici per la vita ad Austin
+                      da chi ha già fatto questo percorso.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="benefit">
+                  <span class="benefit-icon">🗣️</span>
+                  <div>
+                    <h3>Pratica la Lingua</h3>
+                    <p>
+                      Mantieni vivo il tuo italiano o impara la lingua in un
+                      ambiente amichevole e accogliente.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="activities">
+                <h3>Cosa Facciamo Insieme</h3>
+                <ul>
+                  <li>🍷 Aperitivi e cene sociali</li>
+                  <li>🎬 Serate cinema con film italiani</li>
+                  <li>👨‍🍳 Lezioni di cucina italiana</li>
+                  <li>💬 Gruppi di conversazione in italiano</li>
+                  <li>🎨 Eventi culturali e mostre d'arte</li>
+                  <li>🎵 Concerti di musica italiana</li>
+                  <li>🏛️ Celebrazioni delle festività italiane</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="join-form">
+              <div class="form-container">
+                <h2>Modulo di Iscrizione</h2>
+                <p>
+                  Compila il modulo per unirti alla comunità italiana di Austin
+                </p>
+
+                <form id="joinForm">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="firstName">Nome *</label>
+                      <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="lastName">Cognome *</label>
+                      <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="phone">Telefono</label>
+                    <input type="tel" id="phone" name="phone" />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="connection"
+                      >La tua connessione con l'Italia *</label
+                    >
+                    <select id="connection" name="connection" required>
+                      <option value="">Seleziona...</option>
+                      <option value="italian">Sono italiano/a</option>
+                      <option value="italian-american">
+                        Sono italo-americano/a
+                      </option>
+                      <option value="student">Studio italiano</option>
+                      <option value="enthusiast">
+                        Appassionato/a della cultura italiana
+                      </option>
+                      <option value="other">Altro</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="interests"
+                      >I tuoi interessi nella cultura italiana</label
+                    >
+                    <textarea
+                      id="interests"
+                      name="interests"
+                      rows="4"
+                      placeholder="Condividi i tuoi interessi (cucina, arte, lingua, musica, etc.)"
+                    ></textarea>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="howHeard"
+                      >Come hai sentito parlare di noi?</label
+                    >
+                    <select id="howHeard" name="howHeard">
+                      <option value="">Seleziona...</option>
+                      <option value="friend">Amico/conoscente</option>
+                      <option value="social">Social media</option>
+                      <option value="event">Evento</option>
+                      <option value="search">Ricerca online</option>
+                      <option value="other">Altro</option>
+                    </select>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary btn-full">
+                    Invia Richiesta
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>
+              <span class="green">Italiani</span>
+              <span class="red">ad Austin</span>
+            </h3>
+            <p>La comunità italiana di Austin, Texas.</p>
+          </div>
+          <div class="footer-section">
+            <h4>Collegamenti</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="eventi.html">Eventi</a></li>
+              <li><a href="chi-siamo.html">Chi Siamo</a></li>
+              <li><a href="galleria.html">Galleria</a></li>
+              <li><a href="unisciti.html">Unisciti</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contatti</h4>
+            <p>📧 info@italianiadaustin.org</p>
+            <p>📞 (512) 555-0123</p>
+            <p>📍 Austin, TX</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Italiani ad Austin. Tutti i diritti riservati.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
