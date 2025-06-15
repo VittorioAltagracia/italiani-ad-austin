@@ -1,3 +1,5 @@
+"use strict";
+
 // Mobile menu toggle
 document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.querySelector(".hamburger");
