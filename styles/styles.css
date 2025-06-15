@@ -240,48 +240,6 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Newsletter Section */
-.newsletter {
-  background: #009246;
-  color: white;
-  padding: 60px 0;
-}
-
-.newsletter-content {
-  text-align: center;
-}
-
-.newsletter h2 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-}
-
-.newsletter p {
-  margin-bottom: 2rem;
-  font-size: 1.1rem;
-}
-
-.newsletter-form {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.newsletter-form input {
-  flex: 1;
-  padding: 12px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-}
-
-.newsletter-form button {
-  border: none;
-  cursor: pointer;
-}
-
 /* Footer */
 footer {
   background: #333;
