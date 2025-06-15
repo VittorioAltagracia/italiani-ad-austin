@@ -393,3 +393,11 @@ footer {
     align-self: center;
   }
 }
+
+.facebook-icon {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  margin-right: 3px;
+  display: inline-block;
+}
