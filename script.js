@@ -38,34 +38,34 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Newsletter form
-  const newsletterForm = document.querySelector(".newsletter-form");
-  if (newsletterForm) {
-    newsletterForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-      const email = this.querySelector('input[type="email"]').value;
-      alert(
-        "Grazie per esserti iscritto alla newsletter con l'email: " + email
-      );
-      this.reset();
-    });
-  }
+  // // Newsletter form
+  // const newsletterForm = document.querySelector(".newsletter-form");
+  // if (newsletterForm) {
+  //   newsletterForm.addEventListener("submit", function (e) {
+  //     e.preventDefault();
+  //     const email = this.querySelector('input[type="email"]').value;
+  //     alert(
+  //       "Grazie per esserti iscritto alla newsletter con l'email: " + email
+  //     );
+  //     this.reset();
+  //   });
+  // }
 
   // Join form
-  const joinForm = document.getElementById("joinForm");
-  if (joinForm) {
-    joinForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-      const formData = new FormData(this);
-      const name = formData.get("firstName") + " " + formData.get("lastName");
-      alert(
-        "Grazie " +
-          name +
-          "! La tua richiesta è stata inviata. Ti contatteremo presto!"
-      );
-      this.reset();
-    });
-  }
+  // const joinForm = document.getElementById("joinForm");
+  // if (joinForm) {
+  //   joinForm.addEventListener("submit", function (e) {
+  //     e.preventDefault();
+  //     const formData = new FormData(this);
+  //     const name = formData.get("firstName") + " " + formData.get("lastName");
+  //     alert(
+  //       "Grazie " +
+  //         name +
+  //         "! La tua richiesta è stata inviata. Ti contatteremo presto!"
+  //     );
+  //     this.reset();
+  //   });
+  // }
 
   // Smooth scrolling for anchor links
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
