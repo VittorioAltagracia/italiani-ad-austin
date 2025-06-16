@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unisciti - Italiani ad Austin</title>
+    <title>Unisciti - Parliamo Italiano ad Austin</title>
     <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/join-us-page.css" />
   </head>
   <body>
     <header>
@@ -12,7 +13,7 @@
         <div class="nav-container">
           <div class="nav-logo">
             <h1>
-              <span class="green">Italiani</span>
+              <span class="green">Parliamo Italiano</span>
               <span class="red">ad Austin</span>
             </h1>
           </div>
@@ -44,6 +45,13 @@
 
       <section class="join-us">
         <div class="container">
+          <div class="join-cta">
+            <p>
+              Per trovarci e contattarci, vai sul nostro gruppo di Facebook e
+              troverai i prossimi eventi
+            </p>
+          </div>
+
           <div class="join-content">
             <div class="join-info">
               <h2>Perché Unirti alla Nostra Comunità?</h2>
@@ -99,103 +107,10 @@
                 <h3>Cosa Facciamo Insieme</h3>
                 <ul>
                   <li>🍷 Aperitivi e cene sociali</li>
-                  <li>🎬 Serate cinema con film italiani</li>
-                  <li>👨‍🍳 Lezioni di cucina italiana</li>
                   <li>💬 Gruppi di conversazione in italiano</li>
-                  <li>🎨 Eventi culturali e mostre d'arte</li>
-                  <li>🎵 Concerti di musica italiana</li>
-                  <li>🏛️ Celebrazioni delle festività italiane</li>
+                  <li>🧺 Picnic nei parchi</li>
+                  <li>🎤 Incontri culturali con una cantante pazzesca</li>
                 </ul>
-              </div>
-            </div>
-
-            <div class="join-form">
-              <div class="form-container">
-                <h2>Modulo di Iscrizione</h2>
-                <p>
-                  Compila il modulo per unirti alla comunità italiana di Austin
-                </p>
-
-                <form id="joinForm">
-                  <div class="form-row">
-                    <div class="form-group">
-                      <label for="firstName">Nome *</label>
-                      <input
-                        type="text"
-                        id="firstName"
-                        name="firstName"
-                        required
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="lastName">Cognome *</label>
-                      <input
-                        type="text"
-                        id="lastName"
-                        name="lastName"
-                        required
-                      />
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="email">Email *</label>
-                    <input type="email" id="email" name="email" required />
-                  </div>
-
-                  <div class="form-group">
-                    <label for="phone">Telefono</label>
-                    <input type="tel" id="phone" name="phone" />
-                  </div>
-
-                  <div class="form-group">
-                    <label for="connection"
-                      >La tua connessione con l'Italia *</label
-                    >
-                    <select id="connection" name="connection" required>
-                      <option value="">Seleziona...</option>
-                      <option value="italian">Sono italiano/a</option>
-                      <option value="italian-american">
-                        Sono italo-americano/a
-                      </option>
-                      <option value="student">Studio italiano</option>
-                      <option value="enthusiast">
-                        Appassionato/a della cultura italiana
-                      </option>
-                      <option value="other">Altro</option>
-                    </select>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="interests"
-                      >I tuoi interessi nella cultura italiana</label
-                    >
-                    <textarea
-                      id="interests"
-                      name="interests"
-                      rows="4"
-                      placeholder="Condividi i tuoi interessi (cucina, arte, lingua, musica, etc.)"
-                    ></textarea>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="howHeard"
-                      >Come hai sentito parlare di noi?</label
-                    >
-                    <select id="howHeard" name="howHeard">
-                      <option value="">Seleziona...</option>
-                      <option value="friend">Amico/conoscente</option>
-                      <option value="social">Social media</option>
-                      <option value="event">Evento</option>
-                      <option value="search">Ricerca online</option>
-                      <option value="other">Altro</option>
-                    </select>
-                  </div>
-
-                  <button type="submit" class="btn btn-primary btn-full">
-                    Invia Richiesta
-                  </button>
-                </form>
               </div>
             </div>
           </div>
@@ -225,8 +140,19 @@
           </div>
           <div class="footer-section">
             <h4>Contatti</h4>
-            <p>📧 info@italianiadaustin.org</p>
-            <p>📞 (512) 555-0123</p>
+            <span>
+              <img
+                src="/public/facebooIconAI.png"
+                alt="Logo Italiani ad Austin"
+                class="facebook-icon"
+              />
+              <a
+                href="https://www.facebook.com/share/g/161jHRAqyt/"
+                target="_blank"
+              >
+                Il nostro gruppo su Facebook
+              </a>
+            </span>
             <p>📍 Austin, TX</p>
           </div>
         </div>
@@ -236,6 +162,6 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
